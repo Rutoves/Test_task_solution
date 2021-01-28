@@ -1,0 +1,23 @@
+/home/rutoves/clion-2020.3.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DBOOST_ROOT=/home/rutoves/boost_1_75_0 DBOOST_LIBRARYDIR=/home/rutoves/boost_1_75_0/stage/lib -G "CodeBlocks - Unix Makefiles" /home/rutoves/CLionProjects/test_task
+CMake Warning at /home/rutoves/clion-2020.3.1/bin/cmake/linux/share/cmake-3.17/Modules/FindBoost.cmake:1183 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /home/rutoves/clion-2020.3.1/bin/cmake/linux/share/cmake-3.17/Modules/FindBoost.cmake:1307 (_Boost_COMPONENT_DEPENDENCIES)
+  /home/rutoves/clion-2020.3.1/bin/cmake/linux/share/cmake-3.17/Modules/FindBoost.cmake:1908 (_Boost_MISSING_DEPENDENCIES)
+  CMakeLists.txt:5 (find_package)
+
+
+CMake Warning at /home/rutoves/clion-2020.3.1/bin/cmake/linux/share/cmake-3.17/Modules/FindBoost.cmake:1183 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /home/rutoves/clion-2020.3.1/bin/cmake/linux/share/cmake-3.17/Modules/FindBoost.cmake:1307 (_Boost_COMPONENT_DEPENDENCIES)
+  /home/rutoves/clion-2020.3.1/bin/cmake/linux/share/cmake-3.17/Modules/FindBoost.cmake:1908 (_Boost_MISSING_DEPENDENCIES)
+  CMakeLists.txt:5 (find_package)
+
+
+-- Found Boost: /home/rutoves/boost_1_75_0 (found version "1.75.0") found components: filesystem regex 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rutoves/CLionProjects/test_task/cmake-build-debug
